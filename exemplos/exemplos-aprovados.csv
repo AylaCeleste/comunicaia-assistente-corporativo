@@ -1,0 +1,83 @@
+canal,publico,tom,texto
+E-mail,Cliente,Formal,"Assunto: Novo prazo para implantação do módulo financeiro
+
+Prezados,
+
+A implantação do módulo financeiro do Grupo Aurora, prevista para 4 de novembro, passará para 11 de novembro. O ajuste é necessário para concluir os testes de integração com o sistema de faturamento de vocês.
+
+As demais etapas do projeto seguem sem alteração. Na reunião de acompanhamento de 4 de novembro, apresentaremos o resultado dos testes.
+
+Ficamos à disposição para esclarecer qualquer dúvida.
+
+Atenciosamente,
+Equipe de Projetos TechNova"
+E-mail,Equipe,Neutro,"Assunto: Novo fluxo de pedidos de compra a partir de 1º/12
+
+Olá, equipe.
+
+A partir de 1º de dezembro, todos os pedidos de compra passam a ser abertos pelo portal de Suprimentos. Pedidos enviados por e-mail não serão mais aceitos.
+
+O portal registra o andamento de cada pedido e reduz o tempo de aprovação. O guia de uso está disponível na intranet, na página de Suprimentos.
+
+Dúvidas podem ser enviadas para a equipe de Suprimentos.
+
+Obrigado,
+Equipe de Suprimentos"
+Comunicado interno,Toda a empresa,Neutro,"Novo horário de atendimento do RH
+
+A partir de segunda-feira, 3 de novembro, o atendimento presencial do RH passa a funcionar das 9h às 12h e das 14h às 17h.
+
+A mudança vale para todas as unidades. Fora desses horários, as solicitações continuam sendo recebidas pelo portal do colaborador, com resposta em até dois dias úteis.
+
+Dúvidas: equipe de RH, pelo portal do colaborador."
+Comunicado interno,Toda a empresa,Formal,"Atualização da política de viagens corporativas
+
+A partir de 1º de dezembro, as viagens a trabalho deverão ser solicitadas com, no mínimo, 10 dias de antecedência.
+
+A medida vale para todos os colaboradores e tem como objetivo reduzir custos com passagens emitidas em cima da hora. Viagens com prazo menor continuam possíveis, desde que aprovadas pela diretoria da área.
+
+A política completa está disponível na intranet. Dúvidas devem ser encaminhadas à área Financeira."
+Resumo de reunião,Equipe,Neutro,"Planejamento da sprint 14 · 27/10 · Participantes: PO, 3 desenvolvedores, QA
+
+Decisões
+- A sprint 14 terá foco na tela de relatórios.
+- O ajuste de performance do login fica para a sprint 15.
+
+Ações
+- Lucas: detalhar as histórias de relatório até 28/10.
+- Ana (QA): preparar o roteiro de testes até 30/10.
+
+Pendências
+- Confirmar com o cliente o formato de exportação dos relatórios.
+
+Próxima reunião: revisão da sprint em 7/11, às 10h."
+Resumo de reunião,Liderança,Formal,"Comitê de priorização do 1º trimestre · 24/10 · Participantes: diretoria de Operações, Comercial e TI
+
+Decisões
+- O projeto do portal de clientes foi aprovado como prioridade 1.
+- A migração do ERP será iniciada somente após a conclusão do portal.
+
+Ações
+- Diretoria de TI: apresentar cronograma do portal até 7/11.
+- Diretoria Comercial: consolidar requisitos dos clientes-piloto até 14/11.
+
+Pendências
+- Definição do orçamento de consultoria externa.
+
+Próxima reunião: 21/11, às 9h."
+Post na intranet,Toda a empresa,Próximo,"Campanha do agasalho: vamos aquecer o inverno de alguém
+
+Até 30 de junho, cada unidade da TechNova terá uma caixa de coleta na recepção. Vale doar roupas de frio, cobertores e calçados em bom estado.
+
+Todas as doações serão entregues à instituição parceira da campanha na primeira semana de julho.
+
+Separe o que você não usa mais e traga na próxima ida ao escritório. Cada peça faz diferença."
+Post na intranet,Toda a empresa,Neutro,"Novas salas de reunião no 3º andar
+
+O 3º andar ganhou quatro novas salas de reunião, com capacidade para 4 a 10 pessoas e equipamento de videoconferência.
+
+As salas já podem ser reservadas pelo calendário corporativo, com os nomes Ipê, Jatobá, Aroeira e Cedro.
+
+Encontrou algum problema nos equipamentos? Abra um chamado para a equipe de Facilities."
+Mensagem Teams/Slack,Equipe,Urgente,"Hoje, das 18h às 20h, o ERP ficará indisponível para manutenção. Salve seu trabalho até 17h50. Dúvidas: canal #suporte-ti."
+Mensagem Teams/Slack,Equipe,Próximo,"Pessoal, a retrospectiva da sprint passou para quinta, às 15h, na sala Ipê. Tragam um ponto que funcionou e um que podemos melhorar 🙂"

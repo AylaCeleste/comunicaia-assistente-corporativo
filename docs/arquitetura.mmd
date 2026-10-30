@@ -1,0 +1,19 @@
+flowchart TD
+    A["Formulário Tally<br/>tipo, objetivo, público,<br/>tom, informações"] --> B{"Filtro LGPD<br/>regex: CPF, cartão,<br/>telefone"}
+    B -- "sem padrão" --> C["Classificador<br/>Claude Haiku 5.5<br/>JSON: categoria, risco,<br/>fatos, lacunas"]
+    B -- "padrão encontrado" --> B1["E-mail de aviso<br/>+ log BLOQUEADO_REGEX"]
+    C --> D{"Triagem"}
+    D -- "liberado" --> E["Agente redator<br/>Make AI Agent"]
+    D -- "dado sensível ou<br/>fora de escopo" --> D1["E-mail de aviso<br/>+ log BLOQUEADO_CLASSIFICADOR"]
+    K[("Guia de estilo<br/>conhecimento / RAG")] -. "consulta" .-> E
+    X[("Exemplos aprovados<br/>Google Sheets")] -. "consulta" .-> E
+    E --> F["Revisor<br/>Claude Haiku 5.5<br/>notas 1-5 e afirmações<br/>sem respaldo"]
+    F --> G["E-mail ao solicitante<br/>rascunho + relatório<br/>assunto calculado pela regra"]
+    G --> I(["Revisão humana<br/>decide se usa"])
+    G --> H[("Log de auditoria<br/>Google Sheets")]
+    classDef ia fill:#EDE7FF,stroke:#6B4FD8,color:#1d1d1d
+    classDef block fill:#FFECEC,stroke:#C0392B,color:#1d1d1d
+    classDef human fill:#E8F6EC,stroke:#2E8B57,color:#1d1d1d
+    class C,E,F ia
+    class B1,D1 block
+    class I human
